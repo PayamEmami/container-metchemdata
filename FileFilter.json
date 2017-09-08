@@ -13,8 +13,9 @@
     "done"
     ]
   },
-  "parallelism_spec": {
-    "constant": 2
+"parallelism_spec": {
+    "strategy": "CONSTANT",
+    "constant": 2 
   },
   "resource_spec": {
     "memory": "1.2G",
